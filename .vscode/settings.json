@@ -1,0 +1,9 @@
+{
+    "latex-workshop.latexindent.args": [
+        "%TMPFILE%",
+        "--local=/Users/lev/Yandex.Disk.localized/studying/latex/.latexindent.yaml",
+        "--modifylinebreaks",
+        "-t",
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+}
