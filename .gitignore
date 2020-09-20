@@ -3,6 +3,7 @@
 
 ## Files
 *.synctex.gz
+*.toc
 *.fls
 *.log
 *.fdb_latexmk
