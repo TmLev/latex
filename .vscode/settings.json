@@ -8,4 +8,5 @@
     ],
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.autoBuild.run": "onSave",
+    "cSpell.language": ",ru",
 }
