@@ -2,6 +2,11 @@
 
 \usepackage{header}
 
+\includeonly{
+	content/chapter-1,
+	content/chapter-2,
+}
+
 \begin{document}
 
 \begin{abstract}
@@ -31,9 +36,9 @@
 		\item
 	\end{enumerate}
 
-	123
+	\include{content/chapter-1}
+	\include{content/chapter-2}
 
-	some more text
 \end{abstract}
 
 \end{document}
