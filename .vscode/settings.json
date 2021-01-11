@@ -1,8 +1,10 @@
 {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "latex-workshop.latexindent.path": "/.latexindent/latexindent.pl",
     "editor.formatOnSave": true,
     "latex-workshop.latexindent.args": [
         "%TMPFILE%",
-        "--local=/Users/lev/Yandex.Disk.localized/studying/latex/.latexindent.yaml",
+        "--local=/latex/.latexindent.yaml",
         "--modifylinebreaks",
         "-t",
     ],
