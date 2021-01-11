@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# -----------------------------------------------------------------------------
+
+if [[ $EUID == 0 ]]; then
+   echo "This script must be run as non-root user inside docker group"
+   exit 1
+fi
+
+# -----------------------------------------------------------------------------
+
+# Locate
+
+if ( which realpath ); then
+  SCRIPT_PATH=$(dirname "$(realpath -s "${BASH_SOURCE[0]}")")
+else
+  SCRIPT_PATH="$( cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 ; pwd -P )"
+fi
+
+DOCKER_PATH=$(dirname ${SCRIPT_PATH})
+echo $DOCKER_PATH
+
+# -----------------------------------------------------------------------------
+
+docker-compose -f "${DOCKER_PATH}"/docker-compose.yml up -d
