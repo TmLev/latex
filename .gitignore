@@ -8,3 +8,4 @@
 *.log
 *.fdb_latexmk
 *.aux
+docker-compose.yml
