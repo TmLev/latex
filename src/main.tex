@@ -3,42 +3,18 @@
 \usepackage{header}
 
 \includeonly{
+	content/0-abstract,
 	content/1-intro,
 	content/2-motivation,
 }
 
 \begin{document}
 
-\begin{abstract}
-	Some text
-	Even more text
+\include{content/0-abstract}
+\include{content/1-intro}
+\include{content/2-motivation}
 
-	\hello
-
-	\[
-		\bigcup_{i \in I}
-	\]
-
-	Some very very very long text that exceeds maximum column limit of 80
-	characters right here hallooo
-
-	\begin{enumerate}
-		\item[$\bullet$] item
-		      with line break
-		\item second item
-		\item third item
-		      with line break too
-		\item last item
-	\end{enumerate}
-
-	\begin{enumerate}
-		\item
-		\item
-	\end{enumerate}
-
-	\include{content/1-intro}
-	\include{content/2-motivation}
-
-\end{abstract}
+% Ignored – specify file in `includeonly` above
+\include{content/some-file}
 
 \end{document}
