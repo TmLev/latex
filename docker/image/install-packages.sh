@@ -10,11 +10,11 @@ apt-get install -y \
   g++ \
   curl \
   git \
-	vim \
+  vim \
   ssh \
   ca-certificates \
-	openssh-server \
-	rsync \
+  openssh-server \
+  rsync \
   xzdec \
   texlive-latex-extra \
   latexmk
