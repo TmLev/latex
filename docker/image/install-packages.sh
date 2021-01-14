@@ -17,7 +17,8 @@ apt-get install -y \
   rsync \
   xzdec \
   texlive-latex-extra \
-  latexmk
+  latexmk \
+  texlive-lang-all
 
 # Install `cpanm`
 yes | cpan -f App::cpanminus
