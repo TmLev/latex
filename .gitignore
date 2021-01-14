@@ -3,10 +3,14 @@
 
 ## Files
 *.synctex.gz
+*.synctex(busy)
 *.toc
 *.fls
 *.log
 *.fdb_latexmk
 *.aux
+*.bbl
+*.blg
+*.out
 docker-compose.yml
 .DS_Store
