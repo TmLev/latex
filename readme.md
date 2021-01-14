@@ -10,6 +10,12 @@ Features:
 
 ## Troubleshooting
 
-#### VS Code won't show built PDF file
+#### VS Code won't show PDF file built with LaTeX Workshop
 
 Remove and create container.
+
+---
+
+#### SSH refuses to connect
+
+Remove container address from `~/.ssh/known_hosts`.
