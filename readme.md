@@ -12,7 +12,7 @@ Features:
 
 #### VS Code won't show PDF file built with LaTeX Workshop
 
-Remove and create container.
+Remove and create container (`Docker` will pull layers from cache).
 
 ---
 
